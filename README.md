@@ -1,7 +1,7 @@
 # TEST SCENARIOS for the Login Page 
-https://github.com/saur-bh/Etherscan/blob/main/AssignmentForQA.pdf
+TBD
 
-# Etherscan application testing using cypress and cucumber (Gherkin syntax) -RunBook
+# Mainteny application testing using cypress and cucumber (Gherkin syntax) -RunBook
 
 The test was conducted on web browser ( Chrome v91  and Electron v89)
 
@@ -16,13 +16,13 @@ Install node.js and npm on the system
 - cypress
 - cypress-cucumber-preprocessor 
 
-## UseCase which are automated for Register Page 
-1. Account creation missing userName
-2. Account creation missing email
-3. Account creation without selecting captcha
+## UseCase which are automated for Login Page 
+1. Login with valid user
+2. Login with invalid user
+3. Click on forget password link 
 
 ## Demo 
-https://youtu.be/uga9slNaVCA  (Unlisted)
+TBD
 
 ## Setup
 
