@@ -1,6 +1,6 @@
 import { Given, When,Then} from 'cypress-cucumber-preprocessor/steps';
 
-import RegistrationPage from './RegisterationPage';
+import RegistrationPage from './loginPage';
 
 Given('I open registeration page',() =>{
 

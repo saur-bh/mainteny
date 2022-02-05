@@ -1,5 +1,5 @@
 import { defineStep } from 'cypress-cucumber-preprocessor/steps'
-import RegistrationPage from '../cucumber-tests/Registeration/RegisterationPage'
+import RegistrationPage from '../mainteny-test/Login/loginPage'
 
 
 defineStep('I want to wait {int} millisec',time=>{

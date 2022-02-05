@@ -1,5 +1,5 @@
 {
-    "baseUrl" : " https://staging.mainteny.com/auth/login",
+    "baseUrl" : "https://staging.mainteny.com/auth/login",
     "video" : false,
     "defaultCommandTimeout":5000,
     "pageLoadTimeout":100000,
