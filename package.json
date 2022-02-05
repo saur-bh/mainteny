@@ -1,0 +1,25 @@
+{
+  "name": "Mainteny",
+  "version": "1.0.0",
+  "description": "Automation testing of Mainteny web application using cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:tests": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "Mainteny",
+    "automation"
+  ],
+  "author": "Saurabh Verma",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^8.0.0",
+    "cypress-cucumber-preprocessor": "^4.1.4"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
