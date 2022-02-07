@@ -1,5 +1,5 @@
 # TEST SCENARIOS for the Login Page 
-TBD
+https://github.com/saur-bh/mainteny/blob/main/AssignmentForQA.md
 
 # Mainteny application testing using cypress and cucumber (Gherkin syntax) -RunBook
 
