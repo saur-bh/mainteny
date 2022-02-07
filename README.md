@@ -15,6 +15,7 @@ Install node.js and npm on the system
 - javaScript 
 - cypress
 - cypress-cucumber-preprocessor 
+- chai 
 
 ## UseCase which are automated for Login Page 
 1. Login with invalid user
@@ -31,11 +32,10 @@ TBD
 
 ## Running Tests
 
-* To run all  or indiviual tests, run `npm run cy:open` - headed Mode
-* To run individual tests from command prompt , run `npm run cy:tests --glob 'cypress/integration/**/login.feature'`  - headlessMode
+* To run all  or indiviual tests via GUI, run `npm run cy:open` - headed Mode
+* To run tests from command prompt , run `npm run cy:tests`  - headlessMode
 
 ## Enhancement
   * Integration with CI tool i.e. Jenkins
-  * API test Integration 
   * Performance testing using Karate or jMeter 
-  * Alternative way to find elemnet if could not be located.
+  * Alternative way to find element if could not be located.
