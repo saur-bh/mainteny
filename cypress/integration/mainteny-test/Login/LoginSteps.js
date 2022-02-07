@@ -1,70 +1,28 @@
-import { Given, When,Then} from 'cypress-cucumber-preprocessor/steps';
+import { Given, When, Then } from "cypress-cucumber-preprocessor/steps";
 
-import RegistrationPage from './loginPage';
+import LoginPage from "./loginPage";
+import Base from "../../utils/utility";
 
-Given('I open registeration page',() =>{
+Given("I open login page", () => {
+  Base.visitPage("https://staging.mainteny.com/auth/login");
+});
 
-    RegistrationPage.visitPage('https://etherscan.io/register');
+When("I fill the email with {string}", (email) => {
+  LoginPage.typeUserName(email);
+});
 
+When("I fill the password with {string}", (pwd) => {
+  LoginPage.typePassword(pwd);
+});
 
-})
+When("I click on {string} button", (loginBtn) => {
+  LoginPage.clickBtn(loginBtn);
+});
 
-When('I fill the username as {string}',uname=>{
-    
-    RegistrationPage.fillUserName(uname);
-})
+Then("I should see message {string}", (errorMsg) => {
+  LoginPage.verifyErrorMessage(errorMsg);
+});
 
-When('I fill the email with {string}',email=>{
-
-    RegistrationPage.fillEmail(email);
-})
-
-
-When('I fill the password with {string}',pwd=>{
-
-    RegistrationPage.fillPassword(pwd);
-})
-
-When('I fill the confirm password with {string}',pwd=>{
-
-    RegistrationPage.fillConfirmPassword(pwd);
-})
-
-When('I agree {string}',(term)=>{
-
-    RegistrationPage.agreeTerm(term);
-})
-
-When('I agree {string}',(term)=>{
-
-    RegistrationPage.agreeTerm(term);
-})
-
-When('I click on {string} button',(btn)=>{
-    
-    cy.wait(500);
-    RegistrationPage.clickCreateAccount();
-})
-
-When('I click the captcha',()=>{
-
-    cy.wait(500);
-    cy.clickRecaptcha();
-})
-
-Then('I should see message {string} in registration page',msg=>{
-
-    RegistrationPage.verifyCaptachaError(msg);
-})
-
-Then('I should see message {string}',msg=>{
-
-    RegistrationPage.verifyUserNameError(msg);
-
-})
-
-Then('I should see error {string}',(msg)=>{
-
-    RegistrationPage.verifyEmailError(msg);
-
-})
+When("I click on forget password link", () => {
+  LoginPage.clickLink();
+});

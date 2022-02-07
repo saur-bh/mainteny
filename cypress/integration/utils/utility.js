@@ -3,15 +3,19 @@
 
 class BaseFunction{
 
+
+    static visitPage(url){
+        cy.visit(url);
+    }
    
     static inputField(fieldName){
 
         return cy.get(fieldName);
     }
 
-    static clickBtn(fieldName) {
+    static button(buttonName) {
         
-        return cy.get(fieldName);
+        return cy.get("button").contains(buttonName);
     }
 
     static clickChkBox(fieldName){

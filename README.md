@@ -17,8 +17,8 @@ Install node.js and npm on the system
 - cypress-cucumber-preprocessor 
 
 ## UseCase which are automated for Login Page 
-1. Login with valid user
-2. Login with invalid user
+1. Login with invalid user
+2. Login with valid user
 3. Click on forget password link 
 
 ## Demo 
