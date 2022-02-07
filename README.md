@@ -23,7 +23,7 @@ Install node.js and npm on the system
 3. Click on forget password link 
 
 ## Demo 
-TBD
+https://youtu.be/R2J5f_QNAbg
 
 ## Setup
 
