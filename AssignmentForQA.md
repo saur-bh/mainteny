@@ -61,18 +61,18 @@ The Login feature is In-Scope for Functional, Security, Performance, and Interfa
 # Propose Automation Tool
 It would be good to use **cypress** for automation here are key points:
 
-\1. Zero configuration to get started.
+1. Zero configuration to get started.
 
-\2. Low learning curve
+2. Low learning curve
 
-\3. Automatic waiting
+3. Automatic waiting
 
-\4. Control of network traffic 
+4. Control of network traffic 
 
-\5. Support various automation test i.e., API, front-end, end - end test, visual regression tests
+5. Support various automation test i.e., API, front-end, end - end test, visual regression tests
 
-\6. No need to choose framework i.e. (Mocha, Jasmine, test NG)
+6. No need to choose framework i.e. (Mocha, Jasmine, test NG)
 
-\7. No need to choose assertion library (Chai, expects)
+7. No need to choose assertion library (Chai, expects)
 
-\8. No additional installation (Selenium, Java, etc.)
+8. No additional installation (Selenium, Java, etc.)
