@@ -3,8 +3,8 @@
     "video" : false,
     "defaultCommandTimeout":5000,
     "pageLoadTimeout":100000,
-    "ignoreTestFiles":["*.js","*.md"] ,
-    "testFiles": "**/*.feature",
+    
+    "testFiles": ["**/*.spec.js","**/*.feature"],
     "chromeWebSecurity": false 
 
  }
